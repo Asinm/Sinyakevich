@@ -1,4 +1,9 @@
-## Laravel PHP Framework
+## SinyakevichPDO
+### to do
+composer self-update
+git clone https://github.com/Asinm/Sinyakevich.git
+cd laravel
+composer instal
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
