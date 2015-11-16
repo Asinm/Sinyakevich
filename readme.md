@@ -1,10 +1,6 @@
 ## SinyakevichPDO
-### to do
-composer self-update
-git clone https://github.com/Asinm/Sinyakevich.git
-cd laravel
-composer instal
-env больше 32 символов APP_KEY= '32 simbol'
+## House work done
+## РїСЂРѕРІРµСЂРєР° РЅР° СЂСѓСЃСЃРєРёР№ СЏР·С‹Рє
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
@@ -31,7 +27,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-6666666666666666666666
-
-77777777777777777
 
