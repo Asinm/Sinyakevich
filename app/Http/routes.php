@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/user/{id?}/{name?}', function ($id=null, $name='Ivan') {
+    return $id .'-'. $name;
+}) -> where(['name'=>',[A-Z a-z]+', 'id '=>'[0-9+]'])
+;
+
+Route::get('user/profile/{id?}', array('uses'=>'User@getIndex'));
+Route::controller('profile', 'User');
+Route::controllers(['profile'=>'User', 'test'=>'TestController']);
+Route::get('{id?}', ['uses'=>'BaseController@getindex']);
