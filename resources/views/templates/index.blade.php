@@ -6,10 +6,11 @@
 @section('content')
 
     <div id="news">
-        <h2>{{$id}} NEWS </h2>
+        <h2> NEWS </h2>
+
         <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </div>
-    <div id="body_area"><h1>Welcome to Business Website!</h1>
-        <p>In economics, business is the social science of managing people to organize and maintain collective productivity toward accomplishing particular creative and productive goals, usually to generate revenue.</p>
+    <div id="body_area"><h1> {{$text->name}}</h1>
+        <p> {{$text->body}} In economics, business is the social science of managing people to organize and maintain collective productivity toward accomplishing particular creative and productive goals, usually to generate revenue.</p>
 
         <p>The etymology of "business" refers to the state of being busy, in the context of the individual as well as the community or society. In other words, to be busy is to be doing commercially viable and profitable work.</p>
         <p>
