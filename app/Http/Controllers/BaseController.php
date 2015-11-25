@@ -34,7 +34,7 @@ class BaseController extends Controller
        $text->delete();
         return redirect('/');
     }
-    public function getIndex($id=null)
+    public function getIndex($id='index')
     {
         //dd($this->metas);
         $text=Maintext::find($id);

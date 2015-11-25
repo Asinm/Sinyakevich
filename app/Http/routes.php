@@ -22,6 +22,6 @@ Route::get('/user/{id?}/{name?}', function ($id=null, $name='Ivan') {
 Route::get('user/profile/{id?}', array('uses'=>'User@getIndex'));
 Route::controller('profile', 'User');
 Route::controllers(['profile'=>'User', 'form'=>'FormController', 'test'=>'TestController',
-'base'=>'BaseController'
+'base'=>'BaseController', 'auth'=>'Auth\AuthController', 'home'=>'HomeController'
 ]);
 Route::get('{id?}', ['uses'=>'BaseController@getindex']);

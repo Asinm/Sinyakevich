@@ -10,6 +10,13 @@
         @show
 </head>
 <body>
+@if(Auth::check())
+    <a href="auth/logout">Выход</a>
+    <a href={{asset("auth/home")}}>Кабинет</a>
+@else
+    <a href={{asset("auth/login")}}>Вход</a>
+    <a href={{asset("auth/register")}}>Регистрация</a>
+@endif
 <div id="page">
     <div id="topwrap">
 	<div id="sidebar">
